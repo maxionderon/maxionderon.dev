@@ -7,5 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     //tooltips
     const toolTip = document.querySelectorAll('.tooltipped');
     M.Tooltip.init(toolTip, {});
+    //scrollspy
+    const scrollSpy = document.querySelectorAll('.scrollspy');
+    M.ScrollSpy.init(scrollSpy, {});
     
 });
